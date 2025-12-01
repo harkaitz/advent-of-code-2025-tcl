@@ -5,7 +5,7 @@ This project is a collection of solutions to the [Advent of Code 2025](https://a
 problems, implemented in Tcl.
 
 <p align="center">
- <img src="painting.jpg" width="350" title="advent_painting">
+ <img src="painting.jpg" width="250" title="advent_painting">
  <br/>
  Adoración de los Reyes by Velázquez (Museo del Prado, 1619)
 </p>
