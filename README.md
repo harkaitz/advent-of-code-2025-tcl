@@ -7,7 +7,12 @@ problems, implemented in Tcl.
 <p align="center">
  <img src="painting.jpg" width="250" title="advent_painting">
  <br/>
- Adoración de los Reyes by Velázquez (Museo del Prado, 1619)
+ Adoration of the Three Wise Men from the
+ <a href="https://eu.wikipedia.org/wiki/Iru%C3%B1eko_Bibliak"> illustrated Bible</a>
+ of
+ <a href="https://eu.wikipedia.org/wiki/Antso_VII.a_Nafarroakoa">Sancho VII the Strong</a>
+ of
+ <a href="https://eu.wikipedia.org/wiki/Nafarroako_Erresuma">Navarre</a> from the year 1199
 </p>
 
 Full List:
