@@ -1,12 +1,10 @@
 #!/usr/bin/env tclsh
 proc aoc_01 { } {
-    set d [split [aoc_read "01.data"] "\n"]
-    set res {}
-    
+    set data [aoc_read "01.data"]
     set dial  50
     set count1 0
     set count2 0
-    foreach line $d {
+    foreach line [split $data "\n"] {
         set dial_old $dial
         set dir [string range $line 0 0]
         set num [string range $line 1 end]
@@ -36,20 +34,9 @@ proc aoc_01 { } {
         if {$pass} {
             incr count2 $pass
         }
-        # puts "From $dial_old the dial is rotated ($dir)($num) to point at [expr $dial % 100] $pass."
     }
-    lappend res $count1 $count2
-
-
-    
-
-
-    
-    return $res
+    return [list $count1 $count2]    
 }
-
-
-
 if {[file tail $argv0] eq [file tail [info script]]} {
     source "rd.tcl"
     puts [aoc_01]
