@@ -19,6 +19,7 @@ Full List:
 
 - Day 1: Secret Entrance: [01.tcl](./01.tcl), [enunciation](https://adventofcode.com/2025/day/1). 
 - Day 2: Gift Shop: [02.tcl](./02.tcl), [enunciation](https://adventofcode.com/2025/day/2).
+- Day 3: Lobby: [03.tcl](./03.tcl), [enunciation](https://adventofcode.com/2025/day/3)
 
 Install tcl `sudo apt-get -y install tcl tk` and then run with `tclsh ./01.tcl`. You
 can also run the [gui](./aoc2025.tcl) with `wish ./aoc2025.tcl` 😉.

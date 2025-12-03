@@ -6,6 +6,7 @@ set title "AoC 2025 Tcl/Tk solutions"
 set menu {
     "Day 1: Secret Entrance"
     "Day 2: Gift Shop"
+    "Day 3: Lobby"
 }
 set aoc_url "https://adventofcode.com/2025/"
 set git_repo "https://github.com/harkaitz/advent-of-code-2025-tcl"
