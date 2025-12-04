@@ -1,6 +1,27 @@
 #!/bin/sh -e
 AOC_YEAR=2025
-AOC_DAYS=01,02,03
+AOC_DAYS=01,02,03,04
 aoc_run() {
     tclsh ./"$1".tcl
 }
+aoc_create() {
+    if test -e "$1.tcl"; then
+        echo "error: File '$1.tcl' already exists." >&2
+        return 1
+    fi
+    echo "Creating '$1.tcl' ..."
+    cat > "$1.tcl" <<-EOF
+	#!/usr/bin/env tclsh
+	proc aoc_$1 { } {
+	    set input [aoc_read "$1.data"]
+	    puts stderr \$input
+	    return {}
+	}
+	if {[file tail \$argv0] eq [file tail [info script]]} {
+	    source "rd.tcl"
+	    puts [aoc_$1]
+	}
+	EOF
+    chmod +x "$1.tcl"
+}
+
