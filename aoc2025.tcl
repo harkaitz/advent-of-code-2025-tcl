@@ -8,6 +8,7 @@ set menu {
     "Day 2: Gift Shop"
     "Day 3: Lobby"
     "Day 4: Printing Department"
+    "Day 5: Cafeteria"
 }
 set aoc_url "https://adventofcode.com/2025/"
 set git_repo "https://github.com/harkaitz/advent-of-code-2025-tcl"
