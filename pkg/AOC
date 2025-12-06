@@ -1,6 +1,6 @@
 #!/bin/sh -e
 AOC_YEAR=2025
-AOC_DAYS=01,02,03,04,05
+AOC_DAYS=01,02,03,04,05,06
 aoc_run() {
     tclsh ./"$1".tcl
 }
