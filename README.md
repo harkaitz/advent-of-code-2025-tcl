@@ -24,6 +24,8 @@ Full List:
 - Day 5: Cafeteria: [05.tcl](./05.tcl), [enunciation](https://adventofcode.com/2025/day/5).
 - Day 6: Trash Compactor: [06.tcl](./06.tcl), [enunciation](https://adventofcode.com/2025/day/6).
 - Day 7: Laboratories: [07.tcl](./07.tcl), [enunciation](https://adventofcode.com/2025/day/7).
+- Day 8: Playground: TODO, [enunciation](https://adventofcode.com/2025/day/8).
+- Day 9: Movie Theater: [09.tcl (p1)](./09.tcl), [enunciation](https://adventofcode.com/2025/day/09).
 
 Install tcl `sudo apt-get -y install tcl tk` and then run with `tclsh ./01.tcl`. You
 can also run the [gui](./aoc2025.tcl) with `wish ./aoc2025.tcl` 😉.

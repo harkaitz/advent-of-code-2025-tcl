@@ -11,6 +11,8 @@ set menu {
     "Day 5: Cafeteria"
     "Day 6: Trash Compactor"
     "Day 7: Laboratories"
+    "Day 8: Playground"
+    "Day 9: Movie Theater"
 }
 set aoc_url "https://adventofcode.com/2025/"
 set git_repo "https://github.com/harkaitz/advent-of-code-2025-tcl"
